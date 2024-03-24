@@ -1,0 +1,22 @@
+{
+  "name": "@saharzafar/num-guessing-game",
+  "version": "1.0.0",
+  "description": "\"Step into the realm of numbers with our captivating Number Guessing Game! Challenge your intuition as you attempt to unravel the mystery of the hidden number.\"",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "num-guessing-game": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
